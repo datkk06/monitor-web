@@ -4,5 +4,5 @@ INTERVAL_CHECK='5'
 DIR_SCRIPT=$(pwd)
 while [ true ]; do
     sleep $INTERVAL_CHECK
-    bash ${DIR_SCRIPT}/monitor.sh
+    bash ${DIR_SCRIPT}/src/monitor.sh
 done
