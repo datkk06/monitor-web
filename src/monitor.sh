@@ -7,7 +7,7 @@ mkdir -p $LOG_SCRIPT
 
 log_script()
 {
-    echo "`date +"%b %d %T"` $HOSTNAME : ${*}" >> ${LOG_SCRIPT}/monitor.log
+    echo "${*}" >> ${LOG_SCRIPT}/monitor.log
 }
 
 
